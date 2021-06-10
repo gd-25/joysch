@@ -28,8 +28,9 @@ export default function Navbar() {
 
    return (
       <div className="fixed z-30 h-28 3xl:h-48 w-full text-white flex justify-between items-center lulo-font" onLoad={() => setLocation(window.location.pathname)}>
-         <a href="/" className="z-30 md:pl-3">
-            <img src={LOGO} alt="Logo" className="h-32 3xl:h-48 z-30" />
+         <a href="/" className="z-30 md:pl-3 h-32 flex-col-center">
+            <img src={LOGO} alt="Logo" className="w-32 z-30 h-24 object-cover object-top" />
+            <h3 className="font-bold text-xl pt-2">JOY SCHEMEIL</h3>
          </a>
 
          <div className="hidden md:flex-center pr-8">

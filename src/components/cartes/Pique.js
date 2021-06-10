@@ -19,7 +19,7 @@ import LOGOCINCESTE from './../../assets/pique/4-inceste/LOGO2.png'
 
 // Utils
 import NavigationArrows from "../utils/NavigationArrows";
-import MenuChoices from "../utils/MenuChoices";
+import MenuChoicesAlt from "../utils/MenuChoicesAlt";
 import MenuTitles from "../utils/MenuTitles";
 
 
@@ -42,23 +42,16 @@ export default function Pique() {
 
             <div className="h-10 3xl:h-24" />
 
-            <MenuChoices
+            <MenuChoicesAlt
                main1={CIMADE}
                hover1={LOGOCIMADE}
                href1="/la-cimade"
                cimade
 
-               main2={BALEINE}
-               hover2={LOGOWWF}
-               href2="/wwf"
+               main2={SANTE}
+               hover2={LOGOSANTE}
+               href2="/sante-publique"
 
-               main3={SANTE}
-               hover3={LOGOSANTE}
-               href3="/sante-publique"
-
-               main4={INCESTE}
-               hover4={LOGOCINCESTE}
-               href4="/inceste"
             />
 
             <div className="h-32" />

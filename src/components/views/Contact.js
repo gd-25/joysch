@@ -22,15 +22,14 @@ export default function Contact() {
 
             <div className="h-6" />
 
-            <a href="mailto:six.pairecreative@gmail.com?subject=Ne serait-ce pas une belle journée pour donner une très bonne note au BOOKDAY?" className="text-xl md:text-2xl font-medium text-center hover:text-redsix">six.pairecreative@gmail.com</a>
+            <a href="mailto:joy_sch@icloud.com?subject=Ne serait-ce pas une belle journée pour m'embaucher?" className="text-xl md:text-2xl font-medium text-center hover:text-redsix">joy_sch@icloud.com</a>
             <div className="h-2" />
-            <p className="text-xl md:text-2xl font-medium text-center">06 12 51 43 69</p>
+            <p className="text-xl md:text-2xl font-medium text-center">06 26 18 08 03</p>
 
-            <div className="h-10" />
+            <div className="h-2" />
 
             <div className="flex flex-col md:flex-row justify-center items-center">
                <div className="w-64 text-center">
-                  <h1 className="text-lg">JOY SCHEMEIL</h1>
                   <div className="flex-center">
                      <a href="https://www.behance.net/joyschemeil" target="_blank">
                         <img src={BEHANCE} alt="BE" className="h-8 hover:opacity-50" />
@@ -41,19 +40,7 @@ export default function Contact() {
                      </a>
                   </div>
                </div>
-               <div className="h-8 md:h-0" />
-               <div className="w-64 text-center">
-                  <h1 className="text-lg">LÉA CÔME</h1>
-                  <div className="flex-center">
-                     <a href="https://www.behance.net/leacome" target="_blank">
-                        <img src={BEHANCE} alt="BE" className="h-8 hover:opacity-50" />
-                     </a>
-                     <div className="w-4" />
-                     <a href="https://www.linkedin.com/in/l%C3%A9a-c%C3%B4me-a694ba162/" target="_blank">
-                        <img src={LINKEDIN} alt="LI" className="h-7 pb-0.5 hover:opacity-50" />
-                     </a>
-                  </div>
-               </div>
+               
             </div>
 
             <div className="h-32" />
