@@ -28,7 +28,7 @@ export default function Trefle() {
             <div className="h-32" />
 
             <div className="fixed z-50 top-0 right-0 mt-28 mr-6 md:mr-28 3xl:mt-40">
-               <NavigationArrows previous="/pique" next="/paire" />
+               <NavigationArrows previous="/pique" next="/cv" />
             </div>
 
             <MenuTitles

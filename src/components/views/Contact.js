@@ -13,7 +13,7 @@ export default function Contact() {
             <div className="h-48 md:h-24" />
 
             <div className="absolute top-0 right-0 mt-28 mr-6 md:mr-28 3xl:mt-40">
-               <NavigationArrows previous="/paire" next="/" />
+               <NavigationArrows previous="/cv" next="/" />
             </div>
 
             <div className="w-80 md:w-160 flex-col-center">

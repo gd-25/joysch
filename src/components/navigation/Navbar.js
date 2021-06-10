@@ -6,7 +6,7 @@ import LOGO from './../../logos/LOGO.gif'
 
 export default function Navbar() {
    const [cardsOpen, setCardsOpen] = useState(false);
-   const [location, setLocation] = useState("/paire");
+   const [location, setLocation] = useState("/cv");
 
    const [menuOpen, setMenuOpen] = useState(false);
 
@@ -42,7 +42,7 @@ export default function Navbar() {
                   <a href="/trefle" className={(location === "/trefle") ? "font-bold text-base 3xl:text-2xl py-2 3xl:py-4 text-redsix lulo-font" : "font-bold text-base 3xl:text-2xl py-2 3xl:py-4 hover:text-redsix lulo-font"}>TRÈFLE</a>
                </div>}
             </div>
-            <a href="/paire" className={(location === "/paire") ? "font-bold text-base 3xl:text-2xl text-redsix ml-0.5 mr-3 3xl:mr-8 lulo-font" : "font-bold text-base 3xl:text-2xl ml-0.5 mr-3 3xl:mr-8 hover:text-redsix lulo-font"}>NOTRE PAIRE</a>
+            <a href="/cv" className={(location === "/cv") ? "font-bold text-base 3xl:text-2xl text-redsix ml-0.5 mr-3 3xl:mr-8 lulo-font" : "font-bold text-base 3xl:text-2xl ml-0.5 mr-3 3xl:mr-8 hover:text-redsix lulo-font"}>MON CV</a>
 
             <a href="/contact" className={(location === "/contact") ? "font-bold text-base 3xl:text-2xl text-redsix mx-3 lulo-font" : "font-bold text-base 3xl:text-2xl mx-3 hover:text-redsix lulo-font"}>CONTACT</a>
          </div>
@@ -62,7 +62,7 @@ export default function Navbar() {
 
             <div className="h-4" />
 
-            <a href="/paire" className={(location === "/paire") ? "font-bold text-2xl py-2 3xl:py-4 text-redsix mx-3 lulo-font" : "font-bold text-2xl py-2 3xl:py-4 mx-3 lulo-font"}>NOTRE PAIRE</a>
+            <a href="/cv" className={(location === "/cv") ? "font-bold text-2xl py-2 3xl:py-4 text-redsix mx-3 lulo-font" : "font-bold text-2xl py-2 3xl:py-4 mx-3 lulo-font"}>MON CV</a>
 
             <a href="/contact" className={(location === "/contact") ? "font-bold text-2xl py-2 3xl:py-4 text-redsix mx-3 lulo-font" : "font-bold text-2xl py-2 3xl:py-4 mx-3 lulo-font"}>CONTACT</a>
          </div>

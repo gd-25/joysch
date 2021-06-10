@@ -77,13 +77,13 @@ export default function MaisonMacci() {
             </div>
 
             <div className="w-full flex-center z-50 py-10">
-               <NavigationArrows previous="/cajo" next="/paire" />
+               <NavigationArrows previous="/cajo" next="/cv" />
             </div>
          </div>}
 
          {(puzzleSolved || window.innerWidth <= 768) && <div className="flex-col-center">
             <div className="absolute z-50 top-0 right-0 mt-28 3xl:mt-40 mr-6 md:mr-28">
-               <NavigationArrows previous="/cajo" next="/paire" />
+               <NavigationArrows previous="/cajo" next="/cv" />
             </div>
 
             <div className="h-40" />
@@ -140,7 +140,7 @@ export default function MaisonMacci() {
             </div>
 
             <div className="w-full flex-center z-50 pt-32 pb-10">
-               <NavigationArrows previous="/cajo" next="/paire" />
+               <NavigationArrows previous="/cajo" next="/cv" />
             </div>
          </div>}
 

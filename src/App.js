@@ -41,7 +41,7 @@ function App() {
             <Route path="/trefle" component={Trefle}></Route>
             <Route path="/carreau" component={Carreau}></Route>
 
-            <Route path="/paire" component={Paire}></Route>
+            <Route path="/cv" component={Paire}></Route>
             <Route path="/contact" component={Contact}></Route>
 
             <Route path="/sojasun" component={Sojasun}></Route>
@@ -59,7 +59,6 @@ function App() {
             <Route path="/m" component={M}></Route>
             <Route path="/maison-macci" component={MaisonMacci}></Route>
 
-            <Route path="/cv/lea" component={Lea}></Route>
             <Route path="/cv/joy" component={Joy}></Route>
 
          </Switch>
