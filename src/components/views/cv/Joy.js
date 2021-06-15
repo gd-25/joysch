@@ -10,7 +10,7 @@ export default function Joy() {
 
          <img src={CVJOY} className="w-80 md:w-104 object-contain" />
 
-         <a href={CVJOYPDF}  className="mt-10 bg-white text-black px-8 py-2 font-bold hover:text-redsix rounded-full cursor-pointer" download="CV_Lea_Come.pdf">TÉLÉCHARGER LE CV</a>
+         <a href={CVJOYPDF}  className="mt-10 bg-white text-black px-8 py-2 font-bold hover:text-redsix rounded-full cursor-pointer" download="CV_Joy_Schemeil.pdf">TÉLÉCHARGER LE CV</a>
 
          <div className="h-40" />
 
