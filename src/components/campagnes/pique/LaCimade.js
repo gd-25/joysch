@@ -25,7 +25,7 @@ export default function LaCimade() {
          <div className="w-full 3xl:max-w-7xl flex-col-center">
 
             <div className="absolute z-50 top-0 right-0 mt-28 3xl:mt-40 mr-6 md:mr-28">
-               <NavigationArrows previous="/pique" next="/wwf" />
+               <NavigationArrows previous="/pique" next="/sante-publique" />
             </div>
 
             <div className="h-40 md:h-28" />
@@ -91,7 +91,7 @@ export default function LaCimade() {
 
 
                <div className="w-full z-50 py-10 flex-center">
-                  <NavigationArrows previous="/pique" next="/wwf" />
+                  <NavigationArrows previous="/pique" next="/sante-publique" />
                </div>
             </div>
 
@@ -128,7 +128,7 @@ export default function LaCimade() {
 
 
                <div className="w-full z-50 py-10 flex-center">
-                  <NavigationArrows previous="/pique" next="/wwf" />
+                  <NavigationArrows previous="/pique" next="/sante-publique" />
                </div>
             </div>
 

@@ -68,6 +68,27 @@ export default function MenuChoices(prop) {
                </div>}
          </a>}
 
+         <div className="w-40 flex-none h-8"></div>
+
+         {prop.href3 && <a href={prop.href3} onMouseEnter={() => setThirdHover(true)} onMouseLeave={() => setThirdHover(false)}>
+            <img src={prop.main3}
+               className={thirdHover
+                  ? "h-0"
+                  : "object-cover h-48 w-48 3xl:h-80 3xl:w-80 rounded-xl"} />
+            {prop.hover3full ? <img src={prop.hover3}
+               className={thirdHover
+                  ? "object-cover h-48 w-48 3xl:h-80 3xl:w-80 rounded-xl"
+                  : "h-0"} />
+               : <div
+                  className={thirdHover
+                     ? "object-cover h-48 w-48 3xl:h-80 3xl:w-80 rounded-xl flex-center bg-white"
+                     : "h-0"}>
+                  <img src={prop.hover3}
+                     className={thirdHover
+                        ? "h-32 w-32 object-contain"
+                        : "h-0"} />
+               </div>}
+         </a>}
          
 
       </div>

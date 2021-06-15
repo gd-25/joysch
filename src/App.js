@@ -22,6 +22,8 @@ import Inceste from './components/campagnes/pique/Inceste'
 import SantePublique from './components/campagnes/pique/SantePublique'
 import LaCimade from './components/campagnes/pique/LaCimade'
 import WWF from './components/campagnes/pique/WWF'
+import JeTaide from './components/campagnes/pique/JeTaide'
+
 
 import Cajo from './components/campagnes/trefle/Cajo'
 import Contexte from './components/campagnes/trefle/Contexte'
@@ -53,6 +55,7 @@ function App() {
             <Route path="/sante-publique" component={SantePublique}></Route>
             <Route path="/la-cimade" component={LaCimade}></Route>
             <Route path="/wwf" component={WWF}></Route>
+            <Route path="/je-t-aide" component={JeTaide}></Route>
 
             <Route path="/cajo" component={Cajo}></Route>
             <Route path="/contexte" component={Contexte}></Route>

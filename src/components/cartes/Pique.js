@@ -16,6 +16,9 @@ import LOGOCIMADE from './../../assets/pique/3-la-cimade/LOGO.png'
 import INCESTE from './../../assets/pique/4-inceste/MINIATURE.jpg'
 import LOGOCINCESTE from './../../assets/pique/4-inceste/LOGO2.png'
 
+import JETAIDE from './../../assets/pique/5-jetaide/PRINT1.jpg'
+import LOGOJETAIDE from './../../assets/pique/5-jetaide/LOGO.png'
+
 
 // Utils
 import NavigationArrows from "../utils/NavigationArrows";
@@ -51,6 +54,10 @@ export default function Pique() {
                main2={SANTE}
                hover2={LOGOSANTE}
                href2="/sante-publique"
+
+               main3={JETAIDE}
+               hover3={LOGOJETAIDE}
+               href3="/je-t-aide"
 
             />
 

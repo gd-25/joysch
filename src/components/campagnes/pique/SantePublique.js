@@ -22,7 +22,7 @@ export default function SantePublique() {
          <div className="w-full max-w-7xl flex-col-center">
 
             <div className="absolute z-50 top-0 right-0 mt-28 3xl:mt-40 mr-6 md:mr-28">
-               <NavigationArrows previous="/wwf" next="/inceste" />
+               <NavigationArrows previous="/la-cimade" next="/je-t-aide" />
             </div>
 
             <div className="h-40 md:h-28" />
@@ -109,7 +109,7 @@ export default function SantePublique() {
                <div className="h-20" />
 
                <div className="z-50 py-10 w-full flex-center">
-                  <NavigationArrows previous="/wwf" next="/inceste" />
+                  <NavigationArrows previous="/la-cimade" next="/je-t-aide" />
                </div>
             </div>
 
