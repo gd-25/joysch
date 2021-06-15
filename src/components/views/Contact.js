@@ -22,7 +22,7 @@ export default function Contact() {
 
             <div className="h-6" />
 
-            <a href="mailto:joy_sch@icloud.com?subject=Ne serait-ce pas une belle journée pour m'embaucher?" className="text-xl md:text-2xl font-medium text-center hover:text-redsix">joy_sch@icloud.com</a>
+            <a href="mailto:joy_sch@icloud.com?subject=Ne serait-ce pas une belle journée pour embaucher une alternante?" className="text-xl md:text-2xl font-medium text-center hover:text-redsix">joy_sch@icloud.com</a>
             <div className="h-2" />
             <p className="text-xl md:text-2xl font-medium text-center">06 26 18 08 03</p>
 

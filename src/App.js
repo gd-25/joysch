@@ -41,7 +41,7 @@ function App() {
             <Route path="/trefle" component={Trefle}></Route>
             <Route path="/carreau" component={Carreau}></Route>
 
-            <Route path="/cv" component={Paire}></Route>
+            <Route exact path="/cv" component={Paire}></Route>
             <Route path="/contact" component={Contact}></Route>
 
             <Route path="/sojasun" component={Sojasun}></Route>
